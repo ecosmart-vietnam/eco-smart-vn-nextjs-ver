@@ -16,7 +16,7 @@ export default function Document() {
           dangerouslySetInnerHTML={{
             __html: `{
               var chatbox = document.getElementById('fb-customer-chat');
-              chatbox.setAttribute("page_id", "101972352889076");
+              chatbox.setAttribute("page_id", "102113552756762");
               chatbox.setAttribute("attribution", "biz_inbox");
             }`,
           }}
