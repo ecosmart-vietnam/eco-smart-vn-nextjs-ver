@@ -1,0 +1,22 @@
+{
+  "0":
+  {
+    "question": "Question 1: Introduce and tell us 3 interesting things about yourself.", 
+    "answer": "Mr. Tri: I am currently a student in the US, pursuing two majors in Computer Science and Economics. Three interesting things about me are that I am left-handed, daring (yet controlled), and lazy (but still doing well in school)."
+  },
+  "1":
+  {
+    "question": "Mr. Tri, what coincidence led you to establish Eco Smart Solutions?", 
+    "answer": "Mr. Tri: The coincidence may have occurred as a result of my involvement in an annual event held by the Entrepreneurship Support Center for young entrepreneurs and businesses at my academic institution. The Macalester Entrepreneurship and Innovation Board recognizes and rewards individuals with innovative ideas and initiatives that benefit the communities they serve. I was fortunate enough to be awarded the prize, which was previously known as the Eco Heroes Campaign, for my proposal on Eco Smart Solutions, ultimately leading to the inception of the company." 
+  },
+  "2":
+  { 
+    "question": "Question 3: Can you share a little about the goals and expectations you have set for Eco Smart Solutions in the future?", 
+    "answer": "Mr. Tri: As previously mentioned, I am someone who is daring yet balanced, which means my goals and expectations are a mix of ambitious and realistic. I envision Eco Smart Solutions becoming a top-tier sustainable product development company in the northern region of Vietnam. In the short term, our focus is on becoming the largest company of our kind in Hanoi, and potentially ranking among the top two or three in the entire northern region." 
+  },
+  "3":
+  { 
+    "question": "Question 4: Is there anything you want to say to the readers and company followers?", 
+    "answer": "Mr. Tri: I want to emphasize that Eco Smart Solutions is a company that will not disappoint you guys. With the talented and responsible team at Eco Smart, we are committed to developing and spreading our mission widely. We prioritize efficiency, respect, and professionalism in all our work, and our goal is to contribute to the creation of a sustainable world!" 
+  }
+}

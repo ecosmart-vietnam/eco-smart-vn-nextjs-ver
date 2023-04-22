@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function ItemExecutive({ item, setShowModal, setContentCard   }) {
+export default function ItemExecutive({ item, setShowModal, setContentCard, t, index}) {
+    
     return (
         <div style={{ height: '500px' }} onClick={() => {
             setShowModal(true)
@@ -11,9 +12,9 @@ export default function ItemExecutive({ item, setShowModal, setContentCard   }) 
                     <img style={{ border: '10px solid #375849' }} className='rounded-full w-2/3' src={item.img} alt="img-executive" />
     
                     <div className='space-y-3 pt-5 text-gray-600'>
-                        <p className='text-xl  font-bold'>{item.name}</p>
-                        <p className='text-lg'>{item.position}</p>
-                        {item.info ? <p className='text-sm mt-7'>{item.info}</p> : null}
+                        <p className='text-xl  font-bold'>{t(`executiveAboutUs.${index}.name`)}</p>
+                        <p className='text-lg'>{t(`executiveAboutUs.${index}.position`)}</p>
+                        {item.info ? <p className='text-sm mt-7'>{t(`executiveAboutUs.${index}.info`)}</p> : null}
                     </div>
     
                 </div>

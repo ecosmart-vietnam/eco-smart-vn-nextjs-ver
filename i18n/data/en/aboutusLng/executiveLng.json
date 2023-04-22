@@ -1,0 +1,34 @@
+{
+  "0":
+  {
+    "name": "Ms. Mai Thi Thuy",
+    "position": "CHRO (Chief Human Resource Officer)" 
+  },
+  "1":
+  {
+    "name": "Mr. Bui Dinh Tri",
+    "position": "CEO (Chief Executive Officer)",
+    "info": "Bachelor of Information Technology/Investment Economics Macalester University, Minnesota, USA"
+  },
+  "2":
+  {
+    "name": "Mr. Phan Huy Hoang",
+    "position": "CTO (Chief Technology Officer)",
+    "info": "Master of Information Technology Depaul University, Chicago, USA" 
+  },
+  "3":
+  {
+    "name": "Ms. Luu Phan Phuong Linh",
+    "position": "CCO (Chief Customer Officer)" 
+  },
+  "4":
+  {
+    "name": "Ms. Ngo Chau Anh",
+    "position": "CRDO (Chief Research & Development Officer)" 
+  },
+  "5":
+  {
+    "name": "Ms. Nguyen Minh Khue",
+    "position": "CMO (Chief Marketing Officer)" 
+  }
+}

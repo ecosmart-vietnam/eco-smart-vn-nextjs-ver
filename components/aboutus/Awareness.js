@@ -6,6 +6,8 @@ import 'react-multi-carousel/lib/styles.css';
 import { ABOUTUS_PAGE } from '../../config/api'
 import ItemAwareness from './ItemAwareness';
 
+import { useTranslation } from 'react-i18next'
+
 export default function Awareness() {
     const responsive = {
         desktop: {
@@ -22,7 +24,8 @@ export default function Awareness() {
         }
     };
 
-    const {title, list_awareness} = ABOUTUS_PAGE.awareness_aboutus
+    const {list_awareness} = ABOUTUS_PAGE.awareness_aboutus
+    const {t} = useTranslation();
     const renderItemAwareness = () => (
         list_awareness.map((item, index) => <ItemAwareness item={item} key={index} />)
     )
@@ -32,7 +35,7 @@ export default function Awareness() {
 
         <div className='my-12'>
             <div className='container mx-auto'>
-                <h2 style={{color: '#283746'}} className='md:text-3xl font-bold text-2xl hover:text-3xl text-center md:hover:text-4xl h-10'>{title}</h2>
+                <h2 style={{color: '#283746'}} className='md:text-3xl font-bold text-2xl hover:text-3xl text-center md:hover:text-4xl h-10'>{t(`headersAboutUs.awareness`)}</h2>
                 <div className='flex justify-center'>
                     <div className='md:w-1/2 w-2/3' >
                             <Carousel infinite={true} autoPlay={true}   responsive={responsive}>

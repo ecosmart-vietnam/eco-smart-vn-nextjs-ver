@@ -1,0 +1,34 @@
+{
+  "0":
+  {
+    "name": "Chị Mai Thu Thủy",
+    "position": "Trưởng phòng Hành chính - Nhân sự" 
+  },
+  "1":
+  {
+    "name": "Anh Bùi Đình Trí",
+    "position": "Giám đốc điều hành",
+    "info": "Cử nhân song ngành Công nghệ Thông tin/Kinh tế Đầu tư Đại học Macalester, Minnesota, Hoa Kỳ"
+  },
+  "2":
+  {
+    "name": "Anh Phan Huy Hoàng",
+    "position": "Giám đốc công nghệ",
+    "info": "Thạc sĩ Công nghệ Thông tin Đại học Depaul, Chicago, Hoa Kỳ" 
+  },
+  "3":
+  {
+    "name": "Chị Lưu Phan Phương Linh",
+    "position": "Giám đốc kinh doanh" 
+  },
+  "4":
+  {
+    "name": "Chị Ngô Châu Anh",
+    "position": "Trưởng phòng Nghiên cứu và Phát triển" 
+  },
+  "5":
+  {
+    "name": "Chị Nguyễn Minh Khuê",
+    "position": "Trưởng phòng Marketing" 
+  }
+}

@@ -5,6 +5,7 @@ import ItemExecutive from './ItemExecutive';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faX } from "@fortawesome/free-solid-svg-icons";
 
+import { useTranslation } from 'react-i18next'
 
 export default function Executive() {
     // use hook
@@ -12,17 +13,18 @@ export default function Executive() {
     const [contentCard, setContentCard] = useState({})
 
     // render element
-    const { title, list_excutive } = ABOUTUS_PAGE.executive_aboutus
+    const {list_excutive } = ABOUTUS_PAGE.executive_aboutus
+    const {t} = useTranslation();
     const renderListExcutive = () => {
         return list_excutive.map((item, index) => {
-            return  <ItemExecutive setContentCard={setContentCard} setShowModal={setShowModal} item={item} key={index} />
+            return  <ItemExecutive setContentCard={setContentCard} setShowModal={setShowModal} item={item} index={index} key={index} t={t} />
         })
     }
 
     //----------------------------------------------------------------
     return (
         <>
-            <h2 className='text-center text-4xl hover:text-5xl font-bold mb-10 h-10' style={{ color: '#365849' }}>{title}</h2>
+            <h2 className='text-center text-4xl hover:text-5xl font-bold mb-10 h-10' style={{ color: '#365849' }}>{t(`headersAboutUs.executive`)}</h2>
             <div className='container mx-auto'>
                 <div className='mx-20'>
                     <div className=' rounded-2xl' style={{ backgroundColor: '#375849' }}>

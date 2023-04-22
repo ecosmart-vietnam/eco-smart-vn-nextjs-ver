@@ -25,6 +25,15 @@ import PRODUCTS_HOME_VN from '../i18n/data/vn/homeLng/productsLng.json'
 import FOOTER_EN from '../i18n/data/en/footer.json'
 import FOOTER_VN from '../i18n/data/vn/footer.json'
 
+import HEADERS_ABOUTUS_PAGE_EN from '../i18n/data/en/aboutusLng/headersLng.json'
+import HEADERS_ABOUTUS_PAGE_VN from '../i18n/data/vn/aboutusLng/headersLng.json'
+
+import STORY_ABOUTUS_PAGE_EN from '../i18n/data/en/aboutusLng/storyLng.json'
+import STORY_ABOUTUS_PAGE_VN from '../i18n/data/vn/aboutusLng/storyLng.json'
+
+import EXECUTIVE_ABOUTUS_PAGE_EN from '../i18n/data/en/aboutusLng/executiveLng.json'
+import EXECUTIVE_ABOUTUS_PAGE_VN from '../i18n/data/vn/aboutusLng/executiveLng.json'
+
 const resources = {
     en: {
         translation: {
@@ -35,7 +44,10 @@ const resources = {
             achieveHome: ACHIEVE_HOME_EN,
             headersHome: HEADERS_HOME_EN,
             productsHome: PRODUCTS_HOME_EN,
-            footer: FOOTER_EN
+            footer: FOOTER_EN,
+            headersAboutUs: HEADERS_ABOUTUS_PAGE_EN,
+            storyAboutUs: STORY_ABOUTUS_PAGE_EN,
+            executiveAboutUs: EXECUTIVE_ABOUTUS_PAGE_EN
         }
     },
     vn: {
@@ -47,7 +59,10 @@ const resources = {
             achieveHome: ACHIEVE_HOME_VN,
             headersHome: HEADERS_HOME_VN,
             productsHome: PRODUCTS_HOME_VN,
-            footer: FOOTER_VN
+            footer: FOOTER_VN,
+            headersAboutUs: HEADERS_ABOUTUS_PAGE_VN,
+            storyAboutUs: STORY_ABOUTUS_PAGE_VN,
+            executiveAboutUs: EXECUTIVE_ABOUTUS_PAGE_VN
         }
     }
 }
