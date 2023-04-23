@@ -1,6 +1,6 @@
 import React from 'react'
 import Menu from './Menu'
-import Facebook from './AutoChat'
+//import Facebook from './AutoChat'
 import ContactHomePage from '../home/ContactHomePage'
 import Feedback from './Feedback'
 
@@ -11,7 +11,7 @@ export default function Products() {
             <h1 className='py-7 ' style={{color: '#FCF5E5'}}>Sản phẩm</h1>
         </div>
         <Menu/>
-        <Facebook/>
+        {/* <Facebook/> */}
         <ContactHomePage/>
         <Feedback/>  
    </>
