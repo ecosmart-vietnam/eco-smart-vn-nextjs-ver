@@ -88,10 +88,10 @@ const EditProduct = ({ setOpenModal, getProducts, product, setProduct, brands })
               ))}
             </select>
           </div>
-          <div>
+          {/* <div>
             <input type="email" style={{ marginTop: "20px" }} className="appearance-none rounded-lg border w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
               id="username" placeholder="Supplier's email" value={product.email} disabled />
-          </div>
+          </div> */}
           <div style={{ marginTop: "20px" }}>
             <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select condition</label>
             <select defaultValue={product.condition} id="status" onClick={(e) => { setProduct({ ...product, condition: e.target.value }) }}
